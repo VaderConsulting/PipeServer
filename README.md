@@ -1,6 +1,6 @@
 # PipeServer
 
-VB6 working copy of `PipeServer` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Visual Basic Programmer's Guide to the Win32 API. Output: `PIPESRV.exe`. Chapter 14 - Miscellaneous Examples. `VersionCompanyName`: Desaware Inc..
+Desaware VB6 Named Pipe Server (`PIPESRV.exe`, © 1997): creates `\\.\pipe\vbpgpipe1` and waits for a client (`ConnectNamedPipe`), then sends blocked or async data. Open `Pipesrv.vbp` in the VB6 IDE (pair with PipeClient).
 
 **Source last updated:** 1997-06-01 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
